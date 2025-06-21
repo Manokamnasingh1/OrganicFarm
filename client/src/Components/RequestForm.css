@@ -1,0 +1,54 @@
+.request-form-section {
+  padding: 3rem 1rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+
+
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+ form {
+  width: 100%;
+ }  
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+form textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+form button {
+  background-color: #111827;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background-color: #1f2937;
+}
